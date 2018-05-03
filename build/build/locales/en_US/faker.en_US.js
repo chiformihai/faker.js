@@ -1260,7 +1260,7 @@ var Image = function (faker) {
       var width = width || 640;
       var height = height || 480;
 
-      var url ='http://lorempixel.com/' + width + '/' + height;
+      var url ='http://loremflickr.com/' + width + '/' + height;
       if (typeof category !== 'undefined') {
         url += '/' + category;
       }
